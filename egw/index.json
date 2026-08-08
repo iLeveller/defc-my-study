@@ -1,0 +1,1099 @@
+{
+  "source": "Ellen G. White Writings",
+  "description": "Searchable library for Storehouse / Ask Questions",
+  "generated": true,
+  "books": [
+    {
+      "code": "1BC",
+      "title": "SDA Bible Commentary, vol. 1",
+      "abbr": "1BC",
+      "file": "1BC.json",
+      "paragraphs": 322
+    },
+    {
+      "code": "1MCP",
+      "title": "1MCP",
+      "abbr": "1MCP",
+      "file": "1MCP.json",
+      "paragraphs": 1269
+    },
+    {
+      "code": "1SG",
+      "title": "1SG",
+      "abbr": "1SG",
+      "file": "1SG.json",
+      "paragraphs": 335
+    },
+    {
+      "code": "1SM",
+      "title": "1SM",
+      "abbr": "1SM",
+      "file": "1SM.json",
+      "paragraphs": 1377
+    },
+    {
+      "code": "1SP",
+      "title": "1SP",
+      "abbr": "1SP",
+      "file": "1SP.json",
+      "paragraphs": 873
+    },
+    {
+      "code": "1T",
+      "title": "Testimonies for the Church, vol. 1",
+      "abbr": "1T",
+      "file": "1T.json",
+      "paragraphs": 1812
+    },
+    {
+      "code": "1TT",
+      "title": "1TT",
+      "abbr": "1TT",
+      "file": "1TT.json",
+      "paragraphs": 1744
+    },
+    {
+      "code": "2BC",
+      "title": "SDA Bible Commentary, vol. 2",
+      "abbr": "2BC",
+      "file": "2BC.json",
+      "paragraphs": 372
+    },
+    {
+      "code": "2MCP",
+      "title": "2MCP",
+      "abbr": "2MCP",
+      "file": "2MCP.json",
+      "paragraphs": 1522
+    },
+    {
+      "code": "2SG",
+      "title": "2SG",
+      "abbr": "2SG",
+      "file": "2SG.json",
+      "paragraphs": 611
+    },
+    {
+      "code": "2SM",
+      "title": "2SM",
+      "abbr": "2SM",
+      "file": "2SM.json",
+      "paragraphs": 1708
+    },
+    {
+      "code": "2SP",
+      "title": "2SP",
+      "abbr": "2SP",
+      "file": "2SP.json",
+      "paragraphs": 884
+    },
+    {
+      "code": "2T",
+      "title": "Testimonies for the Church, vol. 2",
+      "abbr": "2T",
+      "file": "2T.json",
+      "paragraphs": 1626
+    },
+    {
+      "code": "2TT",
+      "title": "2TT",
+      "abbr": "2TT",
+      "file": "2TT.json",
+      "paragraphs": 1774
+    },
+    {
+      "code": "3BC",
+      "title": "SDA Bible Commentary, vol. 3",
+      "abbr": "3BC",
+      "file": "3BC.json",
+      "paragraphs": 337
+    },
+    {
+      "code": "3SG",
+      "title": "3SG",
+      "abbr": "3SG",
+      "file": "3SG.json",
+      "paragraphs": 571
+    },
+    {
+      "code": "3SM",
+      "title": "3SM",
+      "abbr": "3SM",
+      "file": "3SM.json",
+      "paragraphs": 1827
+    },
+    {
+      "code": "3SP",
+      "title": "3SP",
+      "abbr": "3SP",
+      "file": "3SP.json",
+      "paragraphs": 1062
+    },
+    {
+      "code": "3T",
+      "title": "Testimonies for the Church, vol. 3",
+      "abbr": "3T",
+      "file": "3T.json",
+      "paragraphs": 1522
+    },
+    {
+      "code": "3TT",
+      "title": "3TT",
+      "abbr": "3TT",
+      "file": "3TT.json",
+      "paragraphs": 1642
+    },
+    {
+      "code": "4BC",
+      "title": "SDA Bible Commentary, vol. 4",
+      "abbr": "4BC",
+      "file": "4BC.json",
+      "paragraphs": 390
+    },
+    {
+      "code": "4SP",
+      "title": "4SP",
+      "abbr": "4SP",
+      "file": "4SP.json",
+      "paragraphs": 1120
+    },
+    {
+      "code": "4T",
+      "title": "Testimonies for the Church, vol. 4",
+      "abbr": "4T",
+      "file": "4T.json",
+      "paragraphs": 1924
+    },
+    {
+      "code": "4aSG",
+      "title": "4aSG",
+      "abbr": "4aSG",
+      "file": "4aSG.json",
+      "paragraphs": 392
+    },
+    {
+      "code": "4bSG",
+      "title": "4bSG",
+      "abbr": "4bSG",
+      "file": "4bSG.json",
+      "paragraphs": 401
+    },
+    {
+      "code": "5BC",
+      "title": "SDA Bible Commentary, vol. 5",
+      "abbr": "5BC",
+      "file": "5BC.json",
+      "paragraphs": 692
+    },
+    {
+      "code": "5T",
+      "title": "Testimonies for the Church, vol. 5",
+      "abbr": "5T",
+      "file": "5T.json",
+      "paragraphs": 2107
+    },
+    {
+      "code": "6BC",
+      "title": "SDA Bible Commentary, vol. 6",
+      "abbr": "6BC",
+      "file": "6BC.json",
+      "paragraphs": 660
+    },
+    {
+      "code": "6T",
+      "title": "Testimonies for the Church, vol. 6",
+      "abbr": "6T",
+      "file": "6T.json",
+      "paragraphs": 1502
+    },
+    {
+      "code": "7ABC",
+      "title": "7ABC",
+      "abbr": "7ABC",
+      "file": "7ABC.json",
+      "paragraphs": 289
+    },
+    {
+      "code": "7BC",
+      "title": "SDA Bible Commentary, vol. 7",
+      "abbr": "7BC",
+      "file": "7BC.json",
+      "paragraphs": 921
+    },
+    {
+      "code": "7T",
+      "title": "Testimonies for the Church, vol. 7",
+      "abbr": "7T",
+      "file": "7T.json",
+      "paragraphs": 997
+    },
+    {
+      "code": "8T",
+      "title": "Testimonies for the Church, vol. 8",
+      "abbr": "8T",
+      "file": "8T.json",
+      "paragraphs": 1268
+    },
+    {
+      "code": "9T",
+      "title": "Testimonies for the Church, vol. 9",
+      "abbr": "9T",
+      "file": "9T.json",
+      "paragraphs": 937
+    },
+    {
+      "code": "AA",
+      "title": "The Acts of the Apostles",
+      "abbr": "AA",
+      "file": "AA.json",
+      "paragraphs": 1594
+    },
+    {
+      "code": "AG",
+      "title": "God's Amazing Grace",
+      "abbr": "AG",
+      "file": "AG.json",
+      "paragraphs": 2001
+    },
+    {
+      "code": "AH",
+      "title": "The Adventist Home",
+      "abbr": "AH",
+      "file": "AH.json",
+      "paragraphs": 2594
+    },
+    {
+      "code": "AY",
+      "title": "AY",
+      "abbr": "AY",
+      "file": "AY.json",
+      "paragraphs": 108
+    },
+    {
+      "code": "ApM",
+      "title": "ApM",
+      "abbr": "ApM",
+      "file": "ApM.json",
+      "paragraphs": 70
+    },
+    {
+      "code": "BLJ",
+      "title": "BLJ",
+      "abbr": "BLJ",
+      "file": "BLJ.json",
+      "paragraphs": 1998
+    },
+    {
+      "code": "CCh",
+      "title": "CCh",
+      "abbr": "CCh",
+      "file": "CCh.json",
+      "paragraphs": 2565
+    },
+    {
+      "code": "CD",
+      "title": "CD",
+      "abbr": "CD",
+      "file": "CD.json",
+      "paragraphs": 1981
+    },
+    {
+      "code": "CE",
+      "title": "CE",
+      "abbr": "CE",
+      "file": "CE.json",
+      "paragraphs": 567
+    },
+    {
+      "code": "CET",
+      "title": "CET",
+      "abbr": "CET",
+      "file": "CET.json",
+      "paragraphs": 709
+    },
+    {
+      "code": "CEv",
+      "title": "CEv",
+      "abbr": "CEv",
+      "file": "CEv.json",
+      "paragraphs": 245
+    },
+    {
+      "code": "CG",
+      "title": "Child Guidance",
+      "abbr": "CG",
+      "file": "CG.json",
+      "paragraphs": 2853
+    },
+    {
+      "code": "CH",
+      "title": "Counsels on Health",
+      "abbr": "CH",
+      "file": "CH.json",
+      "paragraphs": 1948
+    },
+    {
+      "code": "CIHS",
+      "title": "CIHS",
+      "abbr": "CIHS",
+      "file": "CIHS.json",
+      "paragraphs": 511
+    },
+    {
+      "code": "CL",
+      "title": "CL",
+      "abbr": "CL",
+      "file": "CL.json",
+      "paragraphs": 142
+    },
+    {
+      "code": "CM",
+      "title": "CM",
+      "abbr": "CM",
+      "file": "CM.json",
+      "paragraphs": 451
+    },
+    {
+      "code": "CME",
+      "title": "CME",
+      "abbr": "CME",
+      "file": "CME.json",
+      "paragraphs": 190
+    },
+    {
+      "code": "COL",
+      "title": "Christ's Object Lessons",
+      "abbr": "COL",
+      "file": "COL.json",
+      "paragraphs": 1134
+    },
+    {
+      "code": "CS",
+      "title": "Counsels on Stewardship",
+      "abbr": "CS",
+      "file": "CS.json",
+      "paragraphs": 1134
+    },
+    {
+      "code": "CSA",
+      "title": "CSA",
+      "abbr": "CSA",
+      "file": "CSA.json",
+      "paragraphs": 552
+    },
+    {
+      "code": "CSW",
+      "title": "CSW",
+      "abbr": "CSW",
+      "file": "CSW.json",
+      "paragraphs": 356
+    },
+    {
+      "code": "CT",
+      "title": "Counsels to Parents, Teachers, and Students",
+      "abbr": "CT",
+      "file": "CT.json",
+      "paragraphs": 1589
+    },
+    {
+      "code": "CTBH",
+      "title": "CTBH",
+      "abbr": "CTBH",
+      "file": "CTBH.json",
+      "paragraphs": 472
+    },
+    {
+      "code": "CTr",
+      "title": "CTr",
+      "abbr": "CTr",
+      "file": "CTr.json",
+      "paragraphs": 2176
+    },
+    {
+      "code": "CW",
+      "title": "CW",
+      "abbr": "CW",
+      "file": "CW.json",
+      "paragraphs": 443
+    },
+    {
+      "code": "ChL",
+      "title": "ChL",
+      "abbr": "ChL",
+      "file": "ChL.json",
+      "paragraphs": 277
+    },
+    {
+      "code": "ChS",
+      "title": "Christian Service",
+      "abbr": "ChS",
+      "file": "ChS.json",
+      "paragraphs": 1179
+    },
+    {
+      "code": "Con",
+      "title": "Con",
+      "abbr": "Con",
+      "file": "Con.json",
+      "paragraphs": 268
+    },
+    {
+      "code": "DA",
+      "title": "The Desire of Ages",
+      "abbr": "DA",
+      "file": "DA.json",
+      "paragraphs": 2703
+    },
+    {
+      "code": "DD",
+      "title": "DD",
+      "abbr": "DD",
+      "file": "DD.json",
+      "paragraphs": 243
+    },
+    {
+      "code": "DG",
+      "title": "DG",
+      "abbr": "DG",
+      "file": "DG.json",
+      "paragraphs": 1076
+    },
+    {
+      "code": "EGWE",
+      "title": "EGWE",
+      "abbr": "EGWE",
+      "file": "EGWE.json",
+      "paragraphs": 1417
+    },
+    {
+      "code": "EP",
+      "title": "EP",
+      "abbr": "EP",
+      "file": "EP.json",
+      "paragraphs": 2271
+    },
+    {
+      "code": "EW",
+      "title": "Early Writings",
+      "abbr": "EW",
+      "file": "EW.json",
+      "paragraphs": 803
+    },
+    {
+      "code": "Ed",
+      "title": "Education",
+      "abbr": "Ed",
+      "file": "Ed.json",
+      "paragraphs": 1133
+    },
+    {
+      "code": "Ev",
+      "title": "Evangelism",
+      "abbr": "Ev",
+      "file": "Ev.json",
+      "paragraphs": 2492
+    },
+    {
+      "code": "ExV",
+      "title": "ExV",
+      "abbr": "ExV",
+      "file": "ExV.json",
+      "paragraphs": 268
+    },
+    {
+      "code": "ExV53",
+      "title": "ExV53",
+      "abbr": "ExV53",
+      "file": "ExV53.json",
+      "paragraphs": 14
+    },
+    {
+      "code": "ExV54",
+      "title": "ExV54",
+      "abbr": "ExV54",
+      "file": "ExV54.json",
+      "paragraphs": 129
+    },
+    {
+      "code": "FE",
+      "title": "Fundamentals of Christian Education",
+      "abbr": "FE",
+      "file": "FE.json",
+      "paragraphs": 1253
+    },
+    {
+      "code": "FLB",
+      "title": "The Faith I Live By",
+      "abbr": "FLB",
+      "file": "FLB.json",
+      "paragraphs": 2287
+    },
+    {
+      "code": "FW",
+      "title": "FW",
+      "abbr": "FW",
+      "file": "FW.json",
+      "paragraphs": 341
+    },
+    {
+      "code": "GC",
+      "title": "The Great Controversy",
+      "abbr": "GC",
+      "file": "GC.json",
+      "paragraphs": 1922
+    },
+    {
+      "code": "GC88",
+      "title": "The Great Controversy (1888)",
+      "abbr": "GC88",
+      "file": "GC88.json",
+      "paragraphs": 1858
+    },
+    {
+      "code": "GRC",
+      "title": "GRC",
+      "abbr": "GRC",
+      "file": "GRC.json",
+      "paragraphs": 197
+    },
+    {
+      "code": "GW",
+      "title": "Gospel Workers",
+      "abbr": "GW",
+      "file": "GW.json",
+      "paragraphs": 1611
+    },
+    {
+      "code": "GW92",
+      "title": "GW92",
+      "abbr": "GW92",
+      "file": "GW92.json",
+      "paragraphs": 1208
+    },
+    {
+      "code": "GrH_c",
+      "title": "GrH_c",
+      "abbr": "GrH_c",
+      "file": "GrH_c.json",
+      "paragraphs": 420
+    },
+    {
+      "code": "HDL",
+      "title": "HDL",
+      "abbr": "HDL",
+      "file": "HDL.json",
+      "paragraphs": 177
+    },
+    {
+      "code": "HF",
+      "title": "HF",
+      "abbr": "HF",
+      "file": "HF.json",
+      "paragraphs": 1964
+    },
+    {
+      "code": "HFM",
+      "title": "HFM",
+      "abbr": "HFM",
+      "file": "HFM.json",
+      "paragraphs": 309
+    },
+    {
+      "code": "HL",
+      "title": "HL",
+      "abbr": "HL",
+      "file": "HL.json",
+      "paragraphs": 1286
+    },
+    {
+      "code": "HLv",
+      "title": "HLv",
+      "abbr": "HLv",
+      "file": "HLv.json",
+      "paragraphs": 2407
+    },
+    {
+      "code": "HP",
+      "title": "In Heavenly Places",
+      "abbr": "HP",
+      "file": "HP.json",
+      "paragraphs": 1978
+    },
+    {
+      "code": "HS",
+      "title": "HS",
+      "abbr": "HS",
+      "file": "HS.json",
+      "paragraphs": 660
+    },
+    {
+      "code": "Hvn",
+      "title": "Hvn",
+      "abbr": "Hvn",
+      "file": "Hvn.json",
+      "paragraphs": 518
+    },
+    {
+      "code": "LDE",
+      "title": "Last Day Events",
+      "abbr": "LDE",
+      "file": "LDE.json",
+      "paragraphs": 1141
+    },
+    {
+      "code": "LHU",
+      "title": "LHU",
+      "abbr": "LHU",
+      "file": "LHU.json",
+      "paragraphs": 2196
+    },
+    {
+      "code": "LP",
+      "title": "LP",
+      "abbr": "LP",
+      "file": "LP.json",
+      "paragraphs": 802
+    },
+    {
+      "code": "LS",
+      "title": "Life Sketches",
+      "abbr": "LS",
+      "file": "LS.json",
+      "paragraphs": 1578
+    },
+    {
+      "code": "LS80",
+      "title": "LS80",
+      "abbr": "LS80",
+      "file": "LS80.json",
+      "paragraphs": 489
+    },
+    {
+      "code": "LS88",
+      "title": "LS88",
+      "abbr": "LS88",
+      "file": "LS88.json",
+      "paragraphs": 558
+    },
+    {
+      "code": "LYL",
+      "title": "LYL",
+      "abbr": "LYL",
+      "file": "LYL.json",
+      "paragraphs": 324
+    },
+    {
+      "code": "MB",
+      "title": "Thoughts From the Mount of Blessing",
+      "abbr": "MB",
+      "file": "MB.json",
+      "paragraphs": 426
+    },
+    {
+      "code": "MC",
+      "title": "MC",
+      "abbr": "MC",
+      "file": "MC.json",
+      "paragraphs": 189
+    },
+    {
+      "code": "MH",
+      "title": "The Ministry of Healing",
+      "abbr": "MH",
+      "file": "MH.json",
+      "paragraphs": 1707
+    },
+    {
+      "code": "ML",
+      "title": "My Life Today",
+      "abbr": "ML",
+      "file": "ML.json",
+      "paragraphs": 2211
+    },
+    {
+      "code": "MM",
+      "title": "Medical Ministry",
+      "abbr": "MM",
+      "file": "MM.json",
+      "paragraphs": 1558
+    },
+    {
+      "code": "MTC",
+      "title": "MTC",
+      "abbr": "MTC",
+      "file": "MTC.json",
+      "paragraphs": 691
+    },
+    {
+      "code": "MYP",
+      "title": "Messages to Young People",
+      "abbr": "MYP",
+      "file": "MYP.json",
+      "paragraphs": 1193
+    },
+    {
+      "code": "Mar",
+      "title": "Maranatha",
+      "abbr": "Mar",
+      "file": "Mar.json",
+      "paragraphs": 2017
+    },
+    {
+      "code": "NL",
+      "title": "NL",
+      "abbr": "NL",
+      "file": "NL.json",
+      "paragraphs": 213
+    },
+    {
+      "code": "OHC",
+      "title": "Our High Calling",
+      "abbr": "OHC",
+      "file": "OHC.json",
+      "paragraphs": 1891
+    },
+    {
+      "code": "PCP",
+      "title": "PCP",
+      "abbr": "PCP",
+      "file": "PCP.json",
+      "paragraphs": 221
+    },
+    {
+      "code": "PH001",
+      "title": "PH001",
+      "abbr": "PH001",
+      "file": "PH001.json",
+      "paragraphs": 77
+    },
+    {
+      "code": "PH004",
+      "title": "PH004",
+      "abbr": "PH004",
+      "file": "PH004.json",
+      "paragraphs": 103
+    },
+    {
+      "code": "PH005",
+      "title": "PH005",
+      "abbr": "PH005",
+      "file": "PH005.json",
+      "paragraphs": 186
+    },
+    {
+      "code": "PH028",
+      "title": "PH028",
+      "abbr": "PH028",
+      "file": "PH028.json",
+      "paragraphs": 60
+    },
+    {
+      "code": "PH038",
+      "title": "PH038",
+      "abbr": "PH038",
+      "file": "PH038.json",
+      "paragraphs": 35
+    },
+    {
+      "code": "PH080",
+      "title": "PH080",
+      "abbr": "PH080",
+      "file": "PH080.json",
+      "paragraphs": 121
+    },
+    {
+      "code": "PH086",
+      "title": "PH086",
+      "abbr": "PH086",
+      "file": "PH086.json",
+      "paragraphs": 136
+    },
+    {
+      "code": "PH088",
+      "title": "PH088",
+      "abbr": "PH088",
+      "file": "PH088.json",
+      "paragraphs": 7
+    },
+    {
+      "code": "PH093",
+      "title": "PH093",
+      "abbr": "PH093",
+      "file": "PH093.json",
+      "paragraphs": 30
+    },
+    {
+      "code": "PH095",
+      "title": "PH095",
+      "abbr": "PH095",
+      "file": "PH095.json",
+      "paragraphs": 159
+    },
+    {
+      "code": "PH098",
+      "title": "PH098",
+      "abbr": "PH098",
+      "file": "PH098.json",
+      "paragraphs": 38
+    },
+    {
+      "code": "PH100",
+      "title": "PH100",
+      "abbr": "PH100",
+      "file": "PH100.json",
+      "paragraphs": 209
+    },
+    {
+      "code": "PH117",
+      "title": "PH117",
+      "abbr": "PH117",
+      "file": "PH117.json",
+      "paragraphs": 264
+    },
+    {
+      "code": "PH144",
+      "title": "PH144",
+      "abbr": "PH144",
+      "file": "PH144.json",
+      "paragraphs": 82
+    },
+    {
+      "code": "PH151",
+      "title": "PH151",
+      "abbr": "PH151",
+      "file": "PH151.json",
+      "paragraphs": 295
+    },
+    {
+      "code": "PK",
+      "title": "Prophets and Kings",
+      "abbr": "PK",
+      "file": "PK.json",
+      "paragraphs": 1995
+    },
+    {
+      "code": "PM",
+      "title": "PM",
+      "abbr": "PM",
+      "file": "PM.json",
+      "paragraphs": 1457
+    },
+    {
+      "code": "PP",
+      "title": "Patriarchs and Prophets",
+      "abbr": "PP",
+      "file": "PP.json",
+      "paragraphs": 2366
+    },
+    {
+      "code": "PaM",
+      "title": "PaM",
+      "abbr": "PaM",
+      "file": "PaM.json",
+      "paragraphs": 784
+    },
+    {
+      "code": "Pr",
+      "title": "Pr",
+      "abbr": "Pr",
+      "file": "Pr.json",
+      "paragraphs": 1170
+    },
+    {
+      "code": "RC",
+      "title": "Reflecting Christ",
+      "abbr": "RC",
+      "file": "RC.json",
+      "paragraphs": 2407
+    },
+    {
+      "code": "RY",
+      "title": "RY",
+      "abbr": "RY",
+      "file": "RY.json",
+      "paragraphs": 692
+    },
+    {
+      "code": "SA",
+      "title": "SA",
+      "abbr": "SA",
+      "file": "SA.json",
+      "paragraphs": 183
+    },
+    {
+      "code": "SC",
+      "title": "Steps to Christ",
+      "abbr": "SC",
+      "file": "SC.json",
+      "paragraphs": 287
+    },
+    {
+      "code": "SD",
+      "title": "Sons and Daughters of God",
+      "abbr": "SD",
+      "file": "SD.json",
+      "paragraphs": 2653
+    },
+    {
+      "code": "SJ",
+      "title": "SJ",
+      "abbr": "SJ",
+      "file": "SJ.json",
+      "paragraphs": 976
+    },
+    {
+      "code": "SL",
+      "title": "The Sanctified Life",
+      "abbr": "SL",
+      "file": "SL.json",
+      "paragraphs": 218
+    },
+    {
+      "code": "SR",
+      "title": "The Story of Redemption",
+      "abbr": "SR",
+      "file": "SR.json",
+      "paragraphs": 1093
+    },
+    {
+      "code": "SS",
+      "title": "SS",
+      "abbr": "SS",
+      "file": "SS.json",
+      "paragraphs": 1539
+    },
+    {
+      "code": "SWk",
+      "title": "SWk",
+      "abbr": "SWk",
+      "file": "SWk.json",
+      "paragraphs": 238
+    },
+    {
+      "code": "SpM",
+      "title": "SpM",
+      "abbr": "SpM",
+      "file": "SpM.json",
+      "paragraphs": 2511
+    },
+    {
+      "code": "SpTEd",
+      "title": "SpTEd",
+      "abbr": "SpTEd",
+      "file": "SpTEd.json",
+      "paragraphs": 477
+    },
+    {
+      "code": "TA",
+      "title": "TA",
+      "abbr": "TA",
+      "file": "TA.json",
+      "paragraphs": 1005
+    },
+    {
+      "code": "TDG",
+      "title": "TDG",
+      "abbr": "TDG",
+      "file": "TDG.json",
+      "paragraphs": 2050
+    },
+    {
+      "code": "TM",
+      "title": "Testimonies to Ministers",
+      "abbr": "TM",
+      "file": "TM.json",
+      "paragraphs": 1570
+    },
+    {
+      "code": "TMK",
+      "title": "That I May Know Him",
+      "abbr": "TMK",
+      "file": "TMK.json",
+      "paragraphs": 2095
+    },
+    {
+      "code": "TR",
+      "title": "TR",
+      "abbr": "TR",
+      "file": "TR.json",
+      "paragraphs": 301
+    },
+    {
+      "code": "TSA",
+      "title": "TSA",
+      "abbr": "TSA",
+      "file": "TSA.json",
+      "paragraphs": 324
+    },
+    {
+      "code": "TSB",
+      "title": "TSB",
+      "abbr": "TSB",
+      "file": "TSB.json",
+      "paragraphs": 913
+    },
+    {
+      "code": "TSDF",
+      "title": "TSDF",
+      "abbr": "TSDF",
+      "file": "TSDF.json",
+      "paragraphs": 1732
+    },
+    {
+      "code": "TSS",
+      "title": "TSS",
+      "abbr": "TSS",
+      "file": "TSS.json",
+      "paragraphs": 252
+    },
+    {
+      "code": "TT",
+      "title": "TT",
+      "abbr": "TT",
+      "file": "TT.json",
+      "paragraphs": 1373
+    },
+    {
+      "code": "Te",
+      "title": "Temperance",
+      "abbr": "Te",
+      "file": "Te.json",
+      "paragraphs": 1078
+    },
+    {
+      "code": "UL",
+      "title": "The Upward Look",
+      "abbr": "UL",
+      "file": "UL.json",
+      "paragraphs": 2240
+    },
+    {
+      "code": "VSS",
+      "title": "VSS",
+      "abbr": "VSS",
+      "file": "VSS.json",
+      "paragraphs": 1212
+    },
+    {
+      "code": "WLF",
+      "title": "WLF",
+      "abbr": "WLF",
+      "file": "WLF.json",
+      "paragraphs": 43
+    },
+    {
+      "code": "WM",
+      "title": "Welfare Ministry",
+      "abbr": "WM",
+      "file": "WM.json",
+      "paragraphs": 967
+    },
+    {
+      "code": "YRP",
+      "title": "YRP",
+      "abbr": "YRP",
+      "file": "YRP.json",
+      "paragraphs": 1663
+    }
+  ]
+}
