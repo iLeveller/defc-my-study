@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The First Great Deception | My Studies</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --parchment: #FAF6EF;
+            --parchment-dark: #F0E8DA;
+            --ink: #2C2418;
+            --ink-medium: #4A3F30;
+            --ink-light: #7A6F5F;
+            --gold: #9A7B2C;
+            --gold-light: #C4A84D;
+            --accent: #6B7D8D;
+            --accent-light: #8FA3B4;
+            --accent-bg: rgba(107, 125, 141, 0.05);
+            --sage: #5C7A5C;
+            --sage-bg: rgba(92, 122, 92, 0.06);
+            --warm-rose: #9B6B6B;
+            --warm-rose-bg: rgba(155, 107, 107, 0.05);
+            --border: #DDD4C4;
+            --shadow: rgba(44, 36, 24, 0.1);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Lora', serif;
+            background: var(--parchment);
+            color: var(--ink);
+            line-height: 1.8;
+        }
+
+        .header {
+            background: linear-gradient(170deg, #8FA3B4 0%, #A8B8C8 40%, #BDC9D4 100%);
+            padding: 60px 20px 50px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .header::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: radial-gradient(ellipse at 50% 80%, rgba(250,246,239,0.25) 0%, transparent 60%);
+        }
+        .header-label {
+            font-family: 'Lora', serif;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            color: rgba(44,36,24,0.6);
+            margin-bottom: 15px;
+            position: relative;
+        }
+        .header h1 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: clamp(2rem, 5vw, 3.2rem);
+            color: var(--ink);
+            font-weight: 600;
+            line-height: 1.2;
+            margin-bottom: 8px;
+            position: relative;
+        }
+        .header-subtitle {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.05rem;
+            color: var(--ink-medium);
+            margin-bottom: 15px;
+            position: relative;
+        }
+        .header-verse {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 0.95rem;
+            color: rgba(44,36,24,0.55);
+            font-style: italic;
+            max-width: 600px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .container {
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 40px 25px 60px;
+        }
+
+        .intro {
+            font-size: 1.05rem;
+            color: var(--ink-medium);
+            margin-bottom: 40px;
+            padding: 25px 30px;
+            background: var(--parchment-dark);
+            border-radius: 12px;
+            border-left: 4px solid var(--accent);
+        }
+
+        .card {
+            background: white;
+            border-radius: 14px;
+            padding: 35px;
+            margin-bottom: 35px;
+            box-shadow: 0 4px 20px var(--shadow);
+            border: 1px solid var(--border);
+        }
+        .card p { margin-bottom: 16px; }
+
+        .fact-num {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            color: var(--accent);
+            margin-bottom: 5px;
+        }
+        .section-title {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: var(--ink);
+            margin-bottom: 20px;
+        }
+
+        .scripture-box {
+            background: linear-gradient(to right, #EDF1F5, var(--parchment));
+            border-left: 4px solid var(--accent);
+            padding: 18px 22px;
+            margin: 18px 0;
+            border-radius: 0 10px 10px 0;
+        }
+        .scripture-box p {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.05rem;
+            font-style: italic;
+            color: var(--ink);
+            margin-bottom: 6px;
+        }
+        .scripture-box .ref {
+            font-family: 'Lora', serif;
+            font-size: 0.82rem;
+            color: var(--accent);
+            font-weight: 600;
+            font-style: normal;
+        }
+
+        .insight-box {
+            background: var(--accent-bg);
+            border-left: 4px solid var(--accent);
+            padding: 20px 24px;
+            margin: 22px 0;
+            border-radius: 0 10px 10px 0;
+        }
+        .insight-box .insight-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--accent);
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        .insight-box p {
+            font-size: 1rem;
+            color: var(--ink-medium);
+        }
+
+        .objection-box {
+            background: var(--warm-rose-bg);
+            border-left: 4px solid var(--warm-rose);
+            padding: 20px 24px;
+            margin: 22px 0;
+            border-radius: 0 10px 10px 0;
+        }
+        .objection-box .obj-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--warm-rose);
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        .objection-box p {
+            font-size: 1rem;
+            color: var(--ink-medium);
+        }
+
+        .answer-box {
+            background: var(--sage-bg);
+            border-left: 4px solid var(--sage);
+            padding: 20px 24px;
+            margin: 22px 0;
+            border-radius: 0 10px 10px 0;
+        }
+        .answer-box .ans-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--sage);
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        .answer-box p {
+            font-size: 1rem;
+            color: var(--ink-medium);
+        }
+
+        .conclusion {
+            background: linear-gradient(135deg, var(--parchment-dark) 0%, var(--parchment) 100%);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 35px;
+            margin-top: 10px;
+            text-align: center;
+        }
+        .conclusion .section-title { margin-bottom: 15px; }
+        .conclusion p {
+            color: var(--ink-medium);
+            margin-bottom: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-label">A Bible Study</div>
+        <h1>The First Great Deception</h1>
+        <div class="header-subtitle">Do the Wicked Burn Forever? Letting Scripture Answer Its Own Question</div>
+        <div class="header-verse">"For the wages of sin is death; but the gift of God is eternal life through Jesus Christ our Lord." &mdash; Romans 6:23</div>
+    </div>
+
+    <div class="container">
+        <div class="intro">
+            "Ye shall not surely die" (Genesis 3:4). Those are the serpent's first recorded words to our race &mdash; a flat contradiction of God's sentence, and the first sermon ever preached on the immortality of the soul. It was preached in Eden, in the very first book of the Bible, and it has echoed down every century since in the teaching that no one ever really dies &mdash; that the lost live on forever, conscious, in torment. That doctrine is repugnant to love, to mercy, and even to our God-given sense of justice; and it has driven thousands into unbelief, for who could worship a God who keeps His creatures alive only to torture them without end? The Bible teaches something very different: the wages of sin is death. The wicked are consumed, root and branch; they become ashes; they are as though they had not been &mdash; leaving a clean universe. In this study we take the questions most often raised &mdash; What is death? What does "perish" mean? What about the rich man and Lazarus? What about "eternal destruction"? &mdash; and let the Bible answer every one of them from its own pages.
+        </div>
+
+        <div class="card">
+            <div class="fact-num">Question One</div>
+            <div class="section-title">What Is a Soul &mdash; and Can It Die?</div>
+            <p>Everything hangs on how God made us, so we begin where the Bible begins:</p>
+            <div class="scripture-box">
+                <p>"And the LORD God formed man of the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul."</p>
+                <span class="ref">Genesis 2:7</span>
+            </div>
+            <p>Notice the equation: dust + the breath of life = a living soul. God did not put a soul into man; man <em>became</em> a soul when body and breath were united. A soul is not something you have &mdash; it is what you are. And when the breath returns to God, the equation runs in reverse:</p>
+            <div class="scripture-box">
+                <p>"Then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it."</p>
+                <span class="ref">Ecclesiastes 12:7</span>
+            </div>
+            <p>The spirit &mdash; the breath of life God lent us &mdash; goes back to the God who gave it, and He keeps it until the resurrection. That is why the dying words of both Jesus and Stephen were the same: "Father, into thy hands I commend my spirit" (Luke 23:46); "Lord Jesus, receive my spirit" (Acts 7:59). And when Jesus raised Jairus' daughter, Scripture records exactly what returned:</p>
+            <div class="scripture-box">
+                <p>"And her spirit came again, and she arose straightway."</p>
+                <span class="ref">Luke 8:55</span>
+            </div>
+            <p>Her own spirit came back to her &mdash; from God, not from heaven's courts or a place of torment. The Bible uses the word "soul" some 1,600 times and never once says "immortal soul." Instead it says plainly:</p>
+            <div class="scripture-box">
+                <p>"The soul that sinneth, it shall die."</p>
+                <span class="ref">Ezekiel 18:4</span>
+            </div>
+            <div class="insight-box">
+                <div class="insight-label">The Key</div>
+                <p>Immortality belongs to God alone &mdash; "Who only hath immortality" (1 Timothy 6:16). Man does not possess it by nature; the righteous "put on immortality" at the last trump (1 Corinthians 15:52-53). If we must put it on, we do not already have it. And if the lost never receive it, they cannot live forever anywhere &mdash; not in heaven, and not in fire.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="fact-num">Question Two</div>
+            <div class="section-title">"In the Day That Thou Eatest Thereof" &mdash; What Kind of Death?</div>
+            <div class="objection-box">
+                <div class="obj-label">The Argument</div>
+                <p>"Adam and Eve did not drop dead the day they ate. Therefore 'death' in the Bible means spiritual death &mdash; separation from God &mdash; and so 'perish', 'death', and 'destruction' in texts about the lost describe an ongoing separation, not an end of life."</p>
+            </div>
+            <div class="answer-box">
+                <div class="ans-label">The Bible's Answer</div>
+                <p>The Hebrew of Genesis 2:17 reads literally "dying thou shalt die" &mdash; that day the sentence fell and the dying began. Adam was cut off from the tree of life "lest he put forth his hand, and take also of the tree of life, and eat, and live for ever" (Genesis 3:22-24). Immortality was withdrawn; mortality set in; and nine hundred and thirty years later the sentence was fully executed.</p>
+            </div>
+            <p>And we are not left to guess what God meant, because God Himself pronounced the sentence in plain words:</p>
+            <div class="scripture-box">
+                <p>"In the sweat of thy face shalt thou eat bread, till thou return unto the ground; for out of it wast thou taken: for dust thou art, and unto dust shalt thou return."</p>
+                <span class="ref">Genesis 3:19</span>
+            </div>
+            <p>God's own definition of the death sentence is a return to dust &mdash; not a transfer to another realm, and not a conscious separation that never ends. Certainly sin separated man from God that day (Isaiah 59:2), but the sentence itself, in God's own words, was dust to dust. To build a doctrine of never-ending conscious existence on the word "death" is to make the word mean the very opposite of what God defined it to mean at the beginning.</p>
+        </div>
+
+        <div class="card">
+            <div class="fact-num">Question Three</div>
+            <div class="section-title">Where Are the Dead Now? Christ's Own Three Days Answer It</div>
+            <p>If anyone's death could tell us what happens at death, it is our Lord's. Where was Jesus between the cross and the resurrection?</p>
+            <div class="scripture-box">
+                <p>"For as Jonas was three days and three nights in the whale's belly; so shall the Son of man be three days and three nights in the heart of the earth."</p>
+                <span class="ref">Matthew 12:40</span>
+            </div>
+            <p>In the heart of the earth &mdash; the grave. Not preaching tours of other realms. And on resurrection morning He said to Mary:</p>
+            <div class="scripture-box">
+                <p>"Touch me not; for I am not yet ascended to my Father."</p>
+                <span class="ref">John 20:17</span>
+            </div>
+            <p>If He had not been to the Father by Sunday morning, He was not in heaven on Friday and Sabbath. He was where He said He would be: in the grave, resting, until His Father called Him forth. And that is exactly where the Bible says every one of the dead now waits:</p>
+            <div class="scripture-box">
+                <p>"Marvel not at this: for the hour is coming, in the which all that are in the graves shall hear his voice, and shall come forth; they that have done good, unto the resurrection of life; and they that have done evil, unto the resurrection of damnation."</p>
+                <span class="ref">John 5:28-29</span>
+            </div>
+            <p>All that are in the graves. Both classes come forth from the same place &mdash; the grave &mdash; not down from bliss and up from torment. Meanwhile "the dead know not any thing" (Ecclesiastes 9:5); "his breath goeth forth, he returneth to his earth; in that very day his thoughts perish" (Psalm 146:4). That is why Scripture calls death a sleep more than fifty times, and why the unjust are "reserved unto the day of judgment to be punished" (2 Peter 2:9) &mdash; reserved, not already punished. No one is sentenced before the trial; God is too just for that.</p>
+            <div class="objection-box">
+                <div class="obj-label">The Argument</div>
+                <p>"But Peter says Christ 'went and preached unto the spirits in prison' in the days of Noah (1 Peter 3:19). Doesn't that show His spirit was active while His body lay in the grave?"</p>
+            </div>
+            <div class="answer-box">
+                <div class="ans-label">The Bible's Answer</div>
+                <p>Read the passage's own time-stamp: the preaching happened "when once the longsuffering of God waited in the days of Noah, while the ark was a preparing" (1 Peter 3:20). Peter tells us elsewhere that "the Spirit of Christ" spoke through the prophets in every age (1 Peter 1:11), and that Noah himself was "a preacher of righteousness" (2 Peter 2:5). The same Spirit that raised Christ preached through Noah to people who were alive then and are prisoners of the grave now. Christ did not travel anywhere during the three days &mdash; He was dead, exactly as the gospel says: "Christ died for our sins... and was buried, and rose again the third day" (1 Corinthians 15:3-4).</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="fact-num">Question Four</div>
+            <div class="section-title">The Rich Man and Lazarus</div>
+            <p>Luke 16 is the strongest text offered for conscious torment before the judgment, so it deserves an honest look. Three things settle its character.</p>
+            <p><strong>First, it sits in a chain of parables.</strong> Luke 15 gives the lost sheep, the lost coin, and the lost son; Luke 16 opens with the unjust steward &mdash; "There was a certain rich man" &mdash; and our story begins with the identical formula: "There was a certain rich man..." (Luke 16:19). Taken literally it proves too much: the saved would recline in Abraham's literal bosom, and heaven and hell would be within speaking distance of each other, with conversations across the gulf forever.</p>
+            <p><strong>Second, notice what the parable was built to rebuke.</strong> The Pharisees, "who were covetous" (Luke 16:14), held that riches proved God's favour and that Abraham's bloodline secured salvation. Jesus turned both upside down: the rich man is lost, and the despised beggar &mdash; fed with crumbs like the Gentile "dogs" of Matthew 15:26-27 &mdash; is carried to Abraham's side.</p>
+            <p><strong>Third, the punchline is a prophecy.</strong></p>
+            <div class="scripture-box">
+                <p>"If they hear not Moses and the prophets, neither will they be persuaded, though one rose from the dead."</p>
+                <span class="ref">Luke 16:31</span>
+            </div>
+            <p>Jesus deliberately named the beggar Lazarus &mdash; and shortly afterward He raised a real man named Lazarus from four days in the tomb. Did the leaders believe? "The chief priests consulted that they might put Lazarus also to death" (John 12:10). The parable's own ending came true to the letter. And mark this well: the real Lazarus, back from four days of death, reported nothing &mdash; no heaven, no torment, no Abraham's bosom. His sister Martha had already told us why: "I know that he shall rise again in the resurrection at the last day" (John 11:24). Her hope, and his, was the resurrection &mdash; not a reward already being enjoyed.</p>
+        </div>
+
+        <div class="card">
+            <div class="fact-num">Question Five</div>
+            <div class="section-title">Does "Destruction" Really Mean Destruction?</div>
+            <div class="objection-box">
+                <div class="obj-label">The Argument</div>
+                <p>"Destruction doesn't have to mean obliteration. A ransacked house is destroyed but still standing; a phone run over by a car is destroyed but still there. So 'everlasting destruction' (2 Thessalonians 1:9) can describe a soul perpetually decaying but never gone."</p>
+            </div>
+            <div class="answer-box">
+                <div class="ans-label">The Bible's Answer</div>
+                <p>Houses and phones are our metaphors; Scripture supplies its own, and they all end in nothing remaining. The wicked shall be "stubble... burnt up... neither root nor branch," and "ashes under the soles of your feet" (Malachi 4:1-3). They shall "consume; into smoke shall they consume away" (Psalm 37:20); "yet a little while, and the wicked shall not be... his place... shall not be" (Psalm 37:10). Chaff is "burned up" (Matthew 3:12). Sodom's "eternal fire" (Jude 7) turned the cities "into ashes" as the standing example of the fate of the ungodly (2 Peter 2:6) &mdash; eternal in result, not in duration. And Jesus left no room at all: God is "able to destroy both soul and body in hell" (Matthew 10:28). Not torment both forever &mdash; destroy both.</p>
+            </div>
+            <p>What of "the punishment of everlasting destruction" itself? Read the phrase carefully: the <em>destruction</em> is everlasting &mdash; permanent, irreversible, no second resurrection &mdash; not the destroying. Just as "everlasting punishment" (Matthew 25:46) is not everlasting punishing: the punishment is the wages of sin, and "the wages of sin is death" (Romans 6:23) &mdash; a death that lasts forever. That is the second death (Revelation 20:14; 21:8), and a second death is the opposite of an endless life in fire.</p>
+            <p>Weigh that key verse carefully, for it sets two opposites side by side: "the wages of sin is <em>death</em>; but the gift of God is <em>eternal life</em>." Death against eternal life. If the wages of sin were eternal torment, the verse would say eternal torment &mdash; but then the lost would possess eternal life after all, merely in a different place. And that Scripture flatly forbids: "God hath given to us eternal life, and this life is in his Son. He that hath the Son hath life; and he that hath not the Son of God hath not life" (1 John 5:11-12). No one receives unending life from any source but Christ &mdash; not in heaven, and not in fire.</p>
+            <p>Even the strongest-sounding phrases dissolve on comparison. The smoke ascending "for ever" and the fire "not quenched" of Revelation borrow their language from Isaiah 34:9-10, where Edom's smoke goes up "for ever" &mdash; yet Edom is not burning today. A servant served his master "for ever" (Exodus 21:6) &mdash; as long as he lived. Jonah was in the deep "for ever" (Jonah 2:6) &mdash; three days. Unquenchable fire is fire no one can put out or rescue anyone from &mdash; "they shall not deliver themselves from the power of the flame" &mdash; yet when its work is done, "there shall not be a coal to warm at" (Isaiah 47:14).</p>
+            <div class="insight-box">
+                <div class="insight-label">Their Own Witness</div>
+                <p>Isaiah 66:24 &mdash; the very passage Jesus draws on for the undying worm (Mark 9:44-48) &mdash; says the redeemed "shall go forth, and look upon the carcases of the men that have transgressed against me." Carcases. Dead bodies. The verse most often quoted for eternal conscious torment describes corpses being consumed in Gehenna &mdash; the valley outside Jerusalem where fire and maggots left nothing &mdash; not living souls in agony. So too Daniel 12:2: those who awake to "shame and everlasting contempt" awake "out of the dust of the earth" &mdash; from the dust, where they were sleeping, not from centuries of torment. The contempt is everlasting; the ones held in contempt are not alive to feel it, any more than history's monsters feel our contempt today.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="fact-num">Question Six</div>
+            <div class="section-title">Is God's Justice Satisfied? Perfectly &mdash; and Proportionally</div>
+            <p>The concern is a righteous one: annihilation must not let a Hitler "get away with it," slipping into non-existence as if judgment had no sting. But the Bible's answer is not endless torment &mdash; it is measured judgment:</p>
+            <div class="scripture-box">
+                <p>"And that servant, which knew his lord's will, and prepared not himself... shall be beaten with many stripes. But he that knew not, and did commit things worthy of stripes, shall be beaten with few stripes."</p>
+                <span class="ref">Luke 12:47-48</span>
+            </div>
+            <p>Many stripes and few stripes &mdash; punishment weighed out "according to their works" (Revelation 20:12-13). Few stripes cannot mean eternity in flames; eternity does not come in a smaller size. Every sin is answered, none escapes, the scale is exact &mdash; and then the wages are paid in full: death. Consider the alternative: under the immediate-torment view, a man with one sin who died five thousand years ago has already burned five millennia longer than the worst mass-murderer of the twentieth century &mdash; and both before either has stood in the judgment. Is that the justice of the God who will not punish before the verdict?</p>
+            <p>And what of the "sting"? Paul tells us exactly what it is:</p>
+            <div class="scripture-box">
+                <p>"O death, where is thy sting? O grave, where is thy victory?... The sting of death is sin; and the strength of sin is the law. But thanks be to God, which giveth us the victory through our Lord Jesus Christ."</p>
+                <span class="ref">1 Corinthians 15:55-57</span>
+            </div>
+            <p>The sting is bound up with death itself &mdash; the enemy Christ conquered. Sin needs no eternal torture chamber to keep its sting; death, the real and final loss of life and of God forever, is sting enough. That is what Christ tasted for every man (Hebrews 2:9), and what the lost will taste without a Saviour.</p>
+        </div>
+
+        <div class="card">
+            <div class="fact-num">Question Seven</div>
+            <div class="section-title">Why the Resurrection Changes Everything</div>
+            <p>Here is the test question for any view of death: <em>if the dead are already in heaven or already in torment, what is the Second Coming for?</em> Why does Christ descend with a shout and the trump of God to raise the dead in Christ (1 Thessalonians 4:16), if they have been with Him for centuries? Why must "this mortal put on immortality" at the last trump (1 Corinthians 15:52-53), if souls were immortal all along? Why a resurrection of damnation (John 5:29), if the lost have already been serving their sentence? Why a judgment day at all, if everyone was dispatched to their reward at death &mdash; verdict first, trial afterwards?</p>
+            <p>The Bible's teaching holds together in one straight line. The dead &mdash; all of them &mdash; sleep in the grave, their spirit kept safe with God who gave it. At the last day the Lifegiver calls, "all that are in the graves shall hear his voice," and every case receives open judgment. The righteous put on immortality and inherit the earth made new (Matthew 5:5; 2 Peter 3:13). The lost receive the wages they chose &mdash; measured stripes, then the second death &mdash; until "they shall be as though they had not been" (Obadiah 16), and "into smoke shall they consume away."</p>
+            <div class="scripture-box">
+                <p>"And God shall wipe away all tears from their eyes; and there shall be no more death, neither sorrow, nor crying, neither shall there be any more pain: for the former things are passed away."</p>
+                <span class="ref">Revelation 21:4</span>
+            </div>
+            <p>No more pain &mdash; anywhere in God's clean universe. That promise cannot stand if one corner of creation screams forever. Sin and sinners come to an end; the universe does not carry an eternally burning wound. The controversy is finished, not fenced off.</p>
+        </div>
+
+        <div class="conclusion">
+            <div class="section-title">The God This Reveals</div>
+            <p>He is not a God who tortures without end, nor a God whose justice winks at sin. He is the God who "hath no pleasure in the death of the wicked" (Ezekiel 33:11), who pleads "turn ye, turn ye... for why will ye die?" &mdash; and who gave His own Son to taste death, real death, three days in the heart of the earth, so that whosoever believes in Him "should not perish, but have everlasting life" (John 3:16).</p>
+            <p>Perish, or live everlastingly. Those are the two roads &mdash; and the choice is still ours.</p>
+        </div>
+    </div>
+</body>
+</html>
